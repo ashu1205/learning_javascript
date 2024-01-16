@@ -37,3 +37,55 @@ let stringNum=String(num)
 
 // console.log(stringNum);  converted into "45" 
 // console.log(typeof(stringNum));  string
+
+
+// ******************** Operations **************
+let value=3
+let negValue=-value;
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);  // 2 to power 3
+// console.log(2/3);
+// console.log(2%2);
+
+let str1="ashutosh "
+let str2="chahar"
+
+let str3=str1+str2
+
+// console.log(str3);
+
+// ***===>>> different
+// console.log("1"+2);
+// console.log(typeof("1"+2));
+// console.log(1+"2"); 
+// console.log(typeof(1+"2"));  // both 12 and "string"
+
+// console.log(1 + "2" + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + "2" + "2");  same for all==> 122
+
+// console.log(1 + 2 + "2");  ==> 32 , read doc
+
+//*** boolean  */
+
+// console.log(true);
+
+// console.log(+true); => 1 (converted)
+
+// console.log(+"");  => 0
+
+
+// ------ increment , decrement -----
+// pre post --> precedence
+
+let counter=99;
+
+// console.log(--counter); ==> 98
+
+counter=100
+// console.log(counter++); ==>100
+
