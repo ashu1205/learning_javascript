@@ -9,7 +9,7 @@ const c=90;
 var a="abs"; //this creates unexpected behaviour , i.e its not used anymore
 
 
-// let b=30; not allowed for let and const , they cant be redeclared wihin their scope
+// let b=30; not allowed for let and const , they cant be redeclared within their scope
 
 //  earlier there was no concept of scope which created problems 
 
