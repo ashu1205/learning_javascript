@@ -37,5 +37,41 @@ const myVariable =function(){   //function object
 // console.log(id===anotherId); --> false => it will be not be equal even if the given value is same
 
 const bigNumber= 23475351563725234673476576n;
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
 // console.log(bigNumber);
+
+
+
+
+
+
+
+// *************************************************************************
+// Stack (primitive)  and Heap (non primitive)
+
+// 
+let myName="Ashutosh";
+
+let anotherName=myName; // copy of the value is passed , so the original stays the same
+
+
+// console.log(anotherName+" "+myName);
+
+anotherName="ashu";
+
+// console.log(anotherName+" "+myName)
+
+
+//////****** Heap  */
+
+let objectOne ={
+    name:"ashutosh",
+    upi:"ashutoshchahar1250@oksbi"
+}
+
+let objectTwo=objectOne ;
+
+objectTwo.email="ashutoshchahar1250@gmail.com"
+objectTwo.name="sonu";
+
+console.log(objectOne);
