@@ -39,3 +39,6 @@ const url="ashutoshchahar%201250.com"
 console.log(url.replace('%20','+'));
 
 console.log(url.includes('chahar'));
+
+const str2="ashutosh-chahar-1250-gmail.com"
+// console.log(str2.split("-",2));  (splitter, limit)
