@@ -54,4 +54,4 @@ console.log("spliced array "+myn2);
 console.log("after spliced "+ arr1);
 // splice -> 1) last index is included 
 //           2) original array is modified
-//           * given range elements are deleted from the array 
+//           *** given range elements are deleted from the array 
