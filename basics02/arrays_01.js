@@ -2,7 +2,7 @@
 
 const arr = [0,1,2,3,4, true ,"ashutosh"] /// prototype - array -> proto -> object
 // can have mixed datatype 
-// resizable
+// ***resizable***
 
 // console.log(arr[0]); // 0-based indexing
 // all built-in array copy operations creates shallow copies(passed by reference || shares the same reference)
@@ -12,7 +12,7 @@ const arr = [0,1,2,3,4, true ,"ashutosh"] /// prototype - array -> proto -> obje
 const arr1=new Array(1,2,3,5,4,5);
 
 arr1.push(7);
-arr1.push(6); // adding value to the array 
+arr1.push(6); // adding element to the starting of array 
 // console.log(arr1);
 arr1.pop(); // delete the last element
 // console.log(arr1);
@@ -55,3 +55,10 @@ console.log("after spliced "+ arr1);
 // splice -> 1) last index is included 
 //           2) original array is modified
 //           *** given range elements are deleted from the array 
+
+
+// arr=[1,2,3,4,5]
+
+// console.log(arr.slice(1,3));
+
+// console.log(arr.splice(1,3));
