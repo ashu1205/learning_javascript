@@ -77,4 +77,25 @@ const user3={
 
 
 //   to check if a property of object exists ? 
-console.log(user3.hasOwnProperty("age"));
+// console.log(user3.hasOwnProperty("age"));
+
+
+const course={
+    courseName:"js in hindi",
+    instructor:"hitesh chaudhary",
+    price:"499"
+}
+
+// destructuring
+
+const {courseName:name,instructor:teacher,price}=course;
+
+console.log(name,teacher,price);
+
+
+// JSON 
+
+// {
+//     "name":"ashutosh",
+//     "age":21
+// }
